@@ -8,5 +8,5 @@ def hello(request):
     elif request_json and 'name' in request_json:
         name = request_json['name']
     else:
-        name = 'Louco'
+        name = 'World!'
     return f'Hello, {name}'
