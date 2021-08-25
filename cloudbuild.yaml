@@ -5,4 +5,4 @@ steps:
   # (pip packages won't be preserved in future steps!)
   args: [-c, 'pip install -r requirements.txt && pytest']
 - name: 'gcr.io/cloud-builders/gcloud'
-  args: ['functions', 'deploy', '[hello]', '[--trigger-http]', '--runtime', 'python37', '--entry-point', '[hello]']
+  args: ['functions', 'deploy', 'hello', '--trigger-http', '--runtime', 'python37', '--entry-point', 'hello']
