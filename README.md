@@ -39,3 +39,5 @@ no caso deste problema:
 ```
 gcloud functions deploy hello --runtime python37 --trigger-http
 ```
+
+### CI/CD 
